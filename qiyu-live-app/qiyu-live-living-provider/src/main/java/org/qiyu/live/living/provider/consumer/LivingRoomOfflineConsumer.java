@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 15:04 2023/7/11
  * @Description
  */
@@ -31,6 +31,15 @@ public class LivingRoomOfflineConsumer implements InitializingBean {
     private RocketMQConsumerProperties rocketMQConsumerProperties;
     @Resource
     private ILivingRoomService livingRoomService;
+
+    /**
+     * 直播间用户下线
+     * @param imOfflineDTO
+     */
+    public void userOfflineHandler(ImOfflineDTO imOfflineDTO){
+        LOGGER.info("直播间用户下线,imOfflineDTO:{}",imOfflineDTO);
+        livingRoomService.userOfflineHandler(imOfflineDTO);
+    }
 
     @Override
     public void afterPropertiesSet() throws Exception {

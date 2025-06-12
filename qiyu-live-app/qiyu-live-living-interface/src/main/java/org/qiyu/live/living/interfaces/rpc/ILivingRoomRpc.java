@@ -9,7 +9,7 @@ import org.qiyu.live.living.interfaces.dto.LivingRoomRespDTO;
 import java.util.List;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:20 2023/7/19
  * @Description
  */
@@ -62,11 +62,32 @@ public interface ILivingRoomRpc {
      * @param livingRoomReqDTO
      * @return
      */
+    /**
+     * 连上线请求
+     * fixed 接口描述
+     *   1. 该接口用于用户在pk直播间中连上线请求
+     *   2. 该接口根据用户请求进行处理
+     *   3. 该接口返回处理结果
+     * @param livingRoomReqDTO
+     * @return
+     */
     LivingPkRespDTO onlinePk(LivingRoomReqDTO livingRoomReqDTO);
 
     /**
      * 根据roomId查询当前pk人是谁
-     *
+     * fixed 接口描述
+     *   1. 该接口用于根据roomId查询当前pk人是谁
+     *   2. 该接口根据roomId进行查询
+     *   3. 该接口返回查询结果
+     * @param roomId
+     * @return
+     */
+    /**
+     * 查询当前pk人
+     * fixed 接口描述
+     *   1. 该接口用于根据roomId查询当前pk人是谁
+     *   2. 该接口根据roomId进行查询
+     *   3. 该接口返回查询结果
      * @param roomId
      * @return
      */

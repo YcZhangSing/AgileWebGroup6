@@ -11,6 +11,13 @@ import org.qiyu.live.msg.enums.MsgSendResultEnum;
 public interface ISmsRpc {
 
     /**
+     * 发送短信验证码
+     * @param phone
+     * @return
+     */
+    MsgSendResultEnum sendCode(String phone);
+
+    /**
      * 发送短信登录验证码接口
      *
      * @param phone
