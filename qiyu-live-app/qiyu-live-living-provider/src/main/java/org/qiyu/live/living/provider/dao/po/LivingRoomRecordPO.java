@@ -7,8 +7,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.util.Date;
 
 /**
- * @Author linhao
- * @Date created in 9:07 下午 2023/1/2
+ * @Author xueyu
+ * @Date created in 9:07 下午 2025/6/10
  */
 @TableName("t_living_room_record")
 public class LivingRoomRecordPO {

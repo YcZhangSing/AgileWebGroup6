@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * 直播间相关请求DTO
  *
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:21 2023/7/19
  * @Description
  */

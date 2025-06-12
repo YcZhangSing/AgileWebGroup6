@@ -36,6 +36,7 @@ public class LivingRoomOfflineConsumer implements InitializingBean {
      * 直播间用户下线
      * @param imOfflineDTO
      */
+    @Transactional(rollbackFor = Exception.class)
     public void userOfflineHandler(ImOfflineDTO imOfflineDTO){
         LOGGER.info("直播间用户下线,imOfflineDTO:{}",imOfflineDTO);
         livingRoomService.userOfflineHandler(imOfflineDTO);

@@ -30,7 +30,7 @@ public class LivingRoomOnlineConsumer implements InitializingBean {
     private RocketMQConsumerProperties rocketMQConsumerProperties;
     @Resource
     private ILivingRoomService livingRoomService;
-
+    // 直播间用户上线
     @Override
     public void afterPropertiesSet() throws Exception {
         DefaultMQPushConsumer mqPushConsumer = new DefaultMQPushConsumer();
