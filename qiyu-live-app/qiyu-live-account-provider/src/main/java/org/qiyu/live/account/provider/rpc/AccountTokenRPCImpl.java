@@ -6,7 +6,7 @@ import org.qiyu.live.account.interfaces.IAccountTokenRPC;
 import org.qiyu.live.account.provider.service.IAccountTokenService;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 08:39 2023/6/21
  * @Description
  */
@@ -15,6 +15,11 @@ public class AccountTokenRPCImpl implements IAccountTokenRPC {
 
     @Resource
     private IAccountTokenService accountTokenService;
+
+    /**
+     * 登录token缓存key前缀
+     */
+    private static final String LOGIN_TOKEN_KEY_PREFIX = "login_token_key:";
 
     @Override
     public String createAndSaveLoginToken(Long userId) {

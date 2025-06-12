@@ -7,14 +7,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 10:13 2023/6/20
  * @Description
  */
 @SpringBootApplication
 @EnableDubbo
 @EnableDiscoveryClient
-public class AccountProviderApplication{
+public class AccountProviderApplication {
+
+
+    /**
+     * 登录token缓存key前缀
+     */
+    private static final String LOGIN_TOKEN_KEY_PREFIX = "login_token_key:";
 
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(AccountProviderApplication.class);
