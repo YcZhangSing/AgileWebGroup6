@@ -27,7 +27,7 @@ import static io.netty.handler.codec.http.cookie.CookieHeaderNames.MAX_AGE;
 import static org.springframework.web.cors.CorsConfiguration.ALL;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 10:57 2023/6/20
  * @Description
  */

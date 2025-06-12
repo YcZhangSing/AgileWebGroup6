@@ -9,6 +9,8 @@
     margin-top: 240px;
 }
 
+
+/*聊天内容*/
 .talk-content-box {
     background-color: white;
     overflow-y: scroll;

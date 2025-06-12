@@ -9,6 +9,11 @@
     margin-top: 240px;
 }
 
+/*礼物列表*/
+.gift_list {
+    margin-top: 10px;
+}
+
 .clear-shop-info-btn {
     position: relative;
     top: -20px;
