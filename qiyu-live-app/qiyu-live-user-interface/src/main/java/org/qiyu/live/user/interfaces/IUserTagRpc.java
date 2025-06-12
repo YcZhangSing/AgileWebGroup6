@@ -12,7 +12,10 @@ public interface IUserTagRpc {
 
    /**
     * 设置标签
-    *
+    * fixed 接口描述
+    *   1. 该接口用于设置用户标签
+    *   2. 该接口根据用户id和标签枚举进行设置
+    *   3. 该接口返回设置是否成功
     * @param userId
     * @param userTagsEnum
     * @return
@@ -36,4 +39,7 @@ public interface IUserTagRpc {
     * @return
     */
    boolean containTag(Long userId,UserTagsEnum userTagsEnum);
+
+   // 修改usertag rpc接口
+   
 }

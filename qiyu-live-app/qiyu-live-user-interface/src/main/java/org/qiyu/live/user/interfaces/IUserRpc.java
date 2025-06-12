@@ -14,7 +14,7 @@ public interface IUserRpc {
 
     /**
      * 根据用户id进行查询
-     *
+     * fixed 用户查询接口
      * @param userId
      * @return
      */
