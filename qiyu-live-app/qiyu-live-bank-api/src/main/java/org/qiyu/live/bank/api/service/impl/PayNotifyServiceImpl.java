@@ -9,7 +9,7 @@ import org.qiyu.live.bank.interfaces.IPayOrderRpc;
 import org.springframework.stereotype.Service;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:50 2023/8/19
  * @Description
  */
@@ -19,6 +19,15 @@ public class PayNotifyServiceImpl implements IPayNotifyService {
     @DubboReference
     private IPayOrderRpc payOrderRpc;
 
+    /**
+     * 处理微信支付回调通知
+     * fixed 接口描述
+     *   1. 该接口用于处理微信支付回调通知
+     *   2. 该接口根据微信支付回调通知进行处理
+     *   3. 该接口返回处理结果
+     * @param paramJson
+     * @return
+     */
     @Override
     public String notifyHandler(String paramJson) {
         WxPayNotifyVO wxPayNotifyVO = JSON.parseObject(paramJson, WxPayNotifyVO.class);

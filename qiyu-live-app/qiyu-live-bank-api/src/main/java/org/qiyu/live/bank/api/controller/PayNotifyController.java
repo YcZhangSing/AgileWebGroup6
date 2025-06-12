@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 处理支付回调的逻辑
- *
+ * fixed 接口描述
+ *   1. 该接口用于处理微信支付回调通知
+ *   2. 该接口根据微信支付回调通知进行处理
+ *   3. 该接口返回处理结果
  * @Author idea
  * @Date: Created in 21:49 2023/8/19
  * @Description

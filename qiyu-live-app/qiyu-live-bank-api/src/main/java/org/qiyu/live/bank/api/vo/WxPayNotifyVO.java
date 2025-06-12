@@ -1,7 +1,7 @@
 package org.qiyu.live.bank.api.vo;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:53 2023/8/19
  * @Description
  */
