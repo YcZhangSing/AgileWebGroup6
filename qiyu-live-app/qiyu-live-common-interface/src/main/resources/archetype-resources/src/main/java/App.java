@@ -1,7 +1,7 @@
 package $org.idea;
 
 /**
- * Hello world!
+ * Hello xueyu
  *
  */
 public class App 

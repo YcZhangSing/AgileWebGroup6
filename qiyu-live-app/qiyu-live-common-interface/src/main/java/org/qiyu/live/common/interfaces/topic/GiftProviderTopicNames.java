@@ -1,7 +1,7 @@
 package org.qiyu.live.common.interfaces.topic;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 16:14 2023/5/28
  * @Description
  */

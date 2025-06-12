@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * 保证每个docker容器的日志挂载目录唯一性
  *
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 15:57 2023/6/3
  * @Description
  */

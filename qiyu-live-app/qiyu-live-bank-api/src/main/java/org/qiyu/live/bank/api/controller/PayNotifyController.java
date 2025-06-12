@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  *   1. 该接口用于处理微信支付回调通知
  *   2. 该接口根据微信支付回调通知进行处理
  *   3. 该接口返回处理结果
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:49 2023/8/19
  * @Description
  */
@@ -23,6 +23,7 @@ public class PayNotifyController {
 
     @Resource
     private IPayNotifyService payNotifyService;
+
 
     @PostMapping("/wxNotify")
     public String wxNotify(@RequestParam("param") String param) {

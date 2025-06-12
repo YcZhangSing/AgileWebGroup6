@@ -14,7 +14,7 @@ import javax.crypto.spec.DESKeySpec;
 import org.apache.commons.codec.binary.Base64;
 
 public class DESUtils {
-
+    // xueyu
     // 算法名称
     public static final String KEY_ALGORITHM = "DES";
     // 算法名称/加密模式/填充方式

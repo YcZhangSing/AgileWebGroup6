@@ -3,7 +3,7 @@ package org.qiyu.live.common.interfaces.vo;
 /**
  * 统一返回给前端的VO对象
  *
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 10:45 2023/6/15
  * @Description
  */
