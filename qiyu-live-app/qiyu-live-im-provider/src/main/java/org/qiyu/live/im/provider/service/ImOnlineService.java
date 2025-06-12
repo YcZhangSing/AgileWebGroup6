@@ -3,7 +3,7 @@ package org.qiyu.live.im.provider.service;
 /**
  * 判断用户是否在线service
  *
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 09:29 2023/7/16
  * @Description
  */

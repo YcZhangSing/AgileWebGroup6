@@ -6,7 +6,7 @@ import org.qiyu.live.im.interfaces.ImOnlineRpc;
 import org.qiyu.live.im.provider.service.ImOnlineService;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 09:28 2023/7/16
  * @Description
  */

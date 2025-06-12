@@ -1,7 +1,7 @@
 package org.qiyu.live.im.constants;
 
 /**
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 20:36 2023/7/6
  * @Description
  */

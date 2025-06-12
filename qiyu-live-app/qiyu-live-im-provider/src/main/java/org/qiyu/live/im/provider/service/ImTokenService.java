@@ -3,7 +3,7 @@ package org.qiyu.live.im.provider.service;
 /**
  * 用户登录token service
  *
- * @Author idea
+ * @Author xueyu
  * @Date: Created in 21:05 2023/7/9
  * @Description
  */
